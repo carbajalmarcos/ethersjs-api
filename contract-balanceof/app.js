@@ -6,7 +6,7 @@ var app = express();
 var Web3 = require("web3");
 const abi = require("./utils/abi.json");
 
-const provider =  "http://localhost:7545";
+const provider =  ""
 const contractAddress = "";
 const web3 = new Web3(provider);
 const tokenContract = new web3.eth.Contract(abi, contractAddress);
